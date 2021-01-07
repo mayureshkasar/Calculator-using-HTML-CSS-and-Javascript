@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script type="text/javascript" src="calculator.js"></script>
+  </head>
+  <body>
+    <p id="name">my calculator</p>
+    <form name="form"><input class="textview" name="textview" /><br /></form>
+    <div class="btns">
+      <input type="button" value="AC" onclick="allclr()" class="allclr" />
+      <input type="button" value="C" onclick="back()" class="clr" />
+      <input type="button" value="/" onclick="val('/')" class="btn" />
+      <input type="button" value="7" onclick="val('7')" class="btn" />
+      <input type="button" value="8" onclick="val('8')" class="btn" />
+      <input type="button" value="9" onclick="val('9')" class="btn" />
+      <input type="button" value="*" onclick="val('*')" class="btn" />
+      <input type="button" value="4" onclick="val('4')" class="btn" />
+      <input type="button" value="5" onclick="val('5')" class="btn" />
+      <input type="button" value="6" onclick="val('6')" class="btn" />
+      <input type="button" value="-" onclick="val('-')" class="btn" />
+      <input type="button" value="1" onclick="val('1')" class="btn" />
+      <input type="button" value="2" onclick="val('2')" class="btn" />
+      <input type="button" value="3" onclick="val('3')" class="btn" />
+      <input type="button" value="+" onclick="val('+')" class="btn" />
+      <input type="button" value="=" onclick="solve()" class="solve" />
+      <input type="button" value="0" onclick="val('0')" class="btn" />
+      <input type="button" value="." onclick="val('.')" class="btn" />
+    </div>
+  </body>
+</html>
